@@ -3,15 +3,7 @@ BFHL API
 Small Express API that implements the required /bfhl POST endpoint.
 Accepts a JSON body with a single key data (an array of tokens) and returns analyses: even/odd numbers, alphabets (uppercase), special characters, sum (string), and concat_string per the assignment spec.
 
-Live endpoint (use this for submission)
 
-POST https://bajajapi-vflx.onrender.com/bfhl
-
-Example:
-
-curl -X POST https://bajajapi-vflx.onrender.com/bfhl \
-  -H "Content-Type: application/json" \
-  -d '{"data":["a","1","334","4","R","$"]}'
 
 Quick start (local)
 
